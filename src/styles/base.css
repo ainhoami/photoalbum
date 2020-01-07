@@ -1,0 +1,268 @@
+html {
+  box-sizing: border-box;
+
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#222;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin:0px auto;
+  width:1400px;
+  
+
+} 
+.pics a{
+  position:relative;
+}
+
+.pics img{
+  width:450px;
+  height:300px;
+  padding: 0;
+
+}
+
+.images {
+  margin:3px;
+  height: 300px; 
+  overflow: hidden; 
+  border:1px solid rgb(179, 175, 175);
+
+}
+
+.images img{
+  transition: transform .5s ease;
+
+
+}
+.pics .images:hover img{
+  transform: scale(1.5);
+
+}
+
+.pics p{
+  margin:0;
+  padding: 0 10px;
+  width:450px;
+  height:60px;
+  top:242px;
+  left:4px;
+  background:rgba(51,51,51,0.8);
+  color:white;
+  font-size: 25px;
+  font-weight: 250;
+  line-height: 55px;
+  position:absolute;
+  opacity: 1;
+  
+}
+
+.alpiccontainer, .maincontainer{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+
+.maincontainer{
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin:40px auto;
+}
+
+.title{
+  color:white;
+  padding: 0;
+  margin:0;
+  font-size: 50px;
+  
+  
+}
+
+.albums{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  width:auto;
+  max-width: 1400px;
+}
+
+
+
+.albums2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin:30px auto;
+  width: 1400px;
+  
+}
+
+.albums2 p{
+  border:1px solid white;
+  width:150px;
+  height: 35px;
+  text-align:  center;
+  line-height: 30px;
+
+}
+
+.albums2 p:hover{
+  background-color:white;
+  border:1px solid #333;
+  color: #333;
+  font-weight: bolder;
+  position: relative;
+  
+}
+
+
+.onealbum{
+background:#333;
+width:450px;
+height:270px;
+margin:5px 5px;
+border:1px solid  rgb(179, 175, 175);
+text-transform: uppercase;
+color:white;
+font-size: 40px;
+font-weight: bold;
+position:relative;
+opacity:0.7;
+ 
+}
+
+.onealbum:hover{
+  opacity: 1;
+
+}
+
+.onealbum img{
+  width:448px;
+  height:268px;
+  /* height:29 8px; */
+  margin:0;
+
+}
+
+a{
+  text-decoration: none;  
+  color:white;  
+  cursor: pointer;
+}
+
+.onealbum p{
+  margin: 0;
+  position:absolute;
+  top:110px;
+  text-align: center;
+  width:448px;
+  color:white;
+  text-shadow: 2px 2px black;
+ 
+}
+
+.picContainer{
+  width:1400px;
+  margin: 70px auto;
+
+}
+
+.carousel{
+  width:900px;
+  margin:auto;
+  height:600px;
+  position: relative;
+}
+.carousel img{
+  width:900px;
+  
+  height:600px;}
+
+  button{
+    width:40px;
+    height: 40px;
+    font-size: 30px;
+  }
+
+  .carousel p.picname{
+    position: absolute;
+    top:40px;
+    right:0;
+    color:white;
+    padding-right:5px;
+    height:20px;
+    font-size: 16px;
+    background-color: #222;
+  }
+
+  .carousel p.arrowl{
+    color:white;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  p.arrowleft{
+    border:none;
+    padding:none;
+    margin:none;
+    width: 20px;
+
+  }
+
+  @media only screen and (max-width: 420px) {
+    .maincontainer{
+      width:420px;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    .onealbum{
+      width:340px;
+      height: 230px;
+    }
+    .onealbum img{
+      width:338px;
+      height: 228px;
+    }
+
+    .onealbum p{
+      margin: 0;
+      position:absolute;
+      top:80px;
+      left:-50px;
+      text-align: center;
+      width:448px;
+      color:white;
+      text-shadow: 2px 2px black;
+     
+    }
+
+  }
+  

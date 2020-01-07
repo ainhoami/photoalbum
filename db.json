@@ -1,0 +1,259 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "name": "Madrid",
+      "url":"https://cdn.pixabay.com/photo/2016/04/29/17/09/flag-1361373_1280.jpg"
+    },
+    {
+      "id": 2,
+      "name": "New York",
+      "url":"https://cdn.pixabay.com/photo/2016/01/20/09/01/america-1151134_1280.jpg"
+    },
+    {
+      "name": "London",
+      "id": 3,
+      "url":"https://cdn.pixabay.com/photo/2019/10/30/12/14/flag-4589426_1280.jpg"
+    },
+    {
+      "name": "Tokyo",
+      "id": 4,
+      "url":"https://cdn.pixabay.com/photo/2016/02/07/05/03/japan-1184122_1280.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Paris",
+      "url": "https://cdn.pixabay.com/photo/2016/02/07/04/40/france-1184099_1280.jpg"
+
+    },
+    {
+      "name": "Rome",
+      "id": 6,
+      "url":"https://cdn.pixabay.com/photo/2017/08/29/21/43/flag-2694986_1280.jpg"
+    }
+  ],
+  "pictures":[
+    {
+      "id":1,
+      "name":"Deboh Temple",
+      "url":"https://cdn.pixabay.com/photo/2015/10/02/19/45/temple-968929_1280.jpg",
+      "albumId":1
+    },
+    {
+      "id":2,
+      "name":"Royal Palace",
+      "url":"https://cdn.pixabay.com/photo/2018/06/08/12/58/royal-3462249_1280.jpg",
+      "albumId":1
+    },
+    {
+      "id":3,
+      "name":"Puerta de Alcala",
+      "url":"https://cdn.pixabay.com/photo/2016/09/03/22/44/spain-1642929_1280.jpg",
+      "albumId":1
+    },
+    {
+      "id":4,
+      "name":"La Ciebeles",
+      "url":"https://cdn.pixabay.com/photo/2017/09/03/00/19/spain-2708993_1280.jpg",
+      "albumId":1
+    },
+    {
+      "id":5,
+      "name":"Gran via",
+      "url":"https://cdn.pixabay.com/photo/2017/06/20/23/40/madrid-2425375_1280.jpg",
+      "albumId":1
+    },
+    {
+      "id":6,
+      "name":"Retiro",
+      "url":"https://cdn.pixabay.com/photo/2017/03/27/18/48/madrid-2179974_1280.jpg",
+      "albumId":1
+
+    },
+    {
+      "id":7,
+      "name":"Tower Bridge",
+      "url":"https://cdn.pixabay.com/photo/2014/09/11/18/23/london-441853_1280.jpg",
+      "albumId":3
+    },
+    {
+      "id":8,
+      "name":"London eye",
+      "url":"https://cdn.pixabay.com/photo/2015/09/18/11/47/london-eye-945497_1280.jpg",
+      "albumId":3
+    },
+    {
+      "id":9,
+      "name":"Big Ben",
+      "url":"https://cdn.pixabay.com/photo/2016/01/16/17/13/big-ben-1143631_1280.jpg",
+      "albumId":3
+    },
+    {
+      "id":10,
+      "name":"Regen street",
+      "url":"https://cdn.pixabay.com/photo/2014/11/11/00/53/london-526246_1280.jpg",
+      "albumId":3
+    },
+    {
+      "id":11,
+      "name":"Royal Abert hall",
+      "url":"https://cdn.pixabay.com/photo/2015/09/10/23/40/royal-albert-hall-935122_1280.jpg",
+      "albumId":3
+    },
+    {
+      "id":12,
+      "name":"St Paul Cathedral",
+      "url":"https://cdn.pixabay.com/photo/2016/05/07/23/24/cathedral-1378411_1280.jpg",
+      "albumId":3
+
+    },
+    {
+      "id":13,
+      "name":"Lanterns",
+      "url":"https://cdn.pixabay.com/photo/2015/11/14/16/52/japan-1043416_1280.jpg",
+      "albumId":4
+    },
+    {
+      "id":14,
+      "name":"Museum Art",
+      "url":"https://cdn.pixabay.com/photo/2014/07/21/17/52/museum-398761_1280.jpg",
+      "albumId":4
+    },
+    {
+      "id":15,
+      "name":"Ginza wako",
+      "url":"https://cdn.pixabay.com/photo/2015/04/16/15/22/ginza-725794_1280.jpg",
+      "albumId":4
+    },
+    {
+      "id":16,
+      "name":"Asakusa",
+      "url":"https://cdn.pixabay.com/photo/2014/01/02/15/51/japan-237658_1280.jpg",
+      "albumId":4
+    },
+    {
+      "id":17,
+      "name":"Akihabara",
+      "url":"https://cdn.pixabay.com/photo/2016/02/05/04/51/akihabara-1180397_1280.jpg",
+      "albumId":4
+    },
+    {
+      "id":18,
+      "name":"Ueno",
+      "url":"https://cdn.pixabay.com/photo/2014/09/16/07/46/japan-447880_1280.jpg",
+      "albumId":4
+
+    },
+    {
+      "id":19,
+      "name":"Fontana di Trevi",
+      "url":"https://cdn.pixabay.com/photo/2015/11/27/18/38/rome-1066035_1280.jpg",
+      "albumId":6
+    },
+    {
+      "id":20,
+      "name":"Arch of Constantine",
+      "url":"https://cdn.pixabay.com/photo/2017/10/07/23/28/italy-2828292_1280.jpg",
+      "albumId":6
+    },
+    {
+      "id":21,
+      "name":"Capitol",
+      "url":"https://cdn.pixabay.com/photo/2018/05/17/23/56/capitol-3410024_1280.jpg",
+      "albumId":6
+    },
+    {
+      "id":22,
+      "name":"Colosseum",
+      "url":"https://cdn.pixabay.com/photo/2015/03/26/09/49/colosseum-690384_1280.jpg",
+      "albumId":6
+    },
+    {
+      "id":23,
+      "name":"Vatican",
+      "url":"https://cdn.pixabay.com/photo/2017/01/01/17/39/rome-1945033_1280.jpg",
+      "albumId":6
+    },
+    {
+      "id":24,
+      "name":"St Peter's Basilica",
+      "url":"https://cdn.pixabay.com/photo/2013/03/25/05/01/st-peters-basilica-96577_1280.jpg",
+      "albumId":6
+
+    },
+    {
+      "id":25,
+      "name":"Skyline",
+      "url":"https://cdn.pixabay.com/photo/2014/11/21/17/23/new-york-540807_1280.jpg",
+      "albumId":2
+    },
+    {
+      "id":26,
+      "name":"Times square",
+      "url":"https://cdn.pixabay.com/photo/2017/10/10/04/55/times-square-2835995_1280.jpg",
+      "albumId":2
+    },
+    {
+      "id":27,
+      "name":"Brooklyn bridge",
+      "url":"https://cdn.pixabay.com/photo/2017/03/16/14/36/bridge-2149402_1280.jpg",
+      "albumId":2
+    },
+    {
+      "id":28,
+      "name":"Crossway building",
+      "url":"https://cdn.pixabay.com/photo/2016/09/07/06/50/new-york-city-1650916_1280.jpg",
+      "albumId":2
+    },
+    {
+      "id":29,
+      "name":"Statue of Liberty",
+      "url":"https://cdn.pixabay.com/photo/2018/07/24/02/45/new-york-3558337_1280.jpg",
+      "albumId":2
+    },
+    {
+      "id":30,
+      "name":"Central park",
+      "url":"https://cdn.pixabay.com/photo/2016/12/06/22/55/new-york-1888222_1280.jpg",
+      "albumId":2
+
+    },
+    {
+      "id":31,
+      "name":"Moulin Rouge",
+      "url":"https://cdn.pixabay.com/photo/2015/04/24/18/37/moulin-rouge-738110_1280.jpg",
+      "albumId":5
+    },
+    {
+      "id":32,
+      "name":"Louvre",
+      "url":"https://cdn.pixabay.com/photo/2013/04/11/19/46/louvre-102840_1280.jpg",
+      "albumId":5
+    },
+    {
+      "id":33,
+      "name":"Eiffel tower",
+      "url":"https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075_1280.jpg",
+      "albumId":5
+    },
+    {
+      "id":34,
+      "name":"Arc Triomphe",
+      "url":"https://cdn.pixabay.com/photo/2013/04/07/21/29/arc-de-triomphe-101633_1280.jpg",
+      "albumId":5
+    },
+    {
+      "id":35,
+      "name":"Seine river",
+      "url":"https://cdn.pixabay.com/photo/2015/10/13/05/38/seine-river-985613_1280.jpg",
+      "albumId":5
+    },
+    {
+      "id":36,
+      "name":"Sacre coeur",
+      "url":"https://cdn.pixabay.com/photo/2017/05/21/04/47/sacre-coeur-2330464_1280.jpg",
+      "albumId":5
+
+    }
+  ]
+}
