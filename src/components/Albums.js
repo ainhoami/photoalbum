@@ -13,13 +13,13 @@ function Albums(props){
 
 
     useEffect(()=>{
-        axios.get("/albums").then(resp =>{
+        axios.get("https://ami-photojson.herokuapp.com/api/albums").then(resp =>{
             setAlbums(resp.data)
         })
     },[])
 
     useEffect(()=>{
-        axios.get("/albums/"+id + "?_embed=pictures").then(resp =>{
+        axios.get("https://ami-photojson.herokuapp.com/api/albums/"+id + "?_embed=pictures").then(resp =>{
             setPicAlbums(resp.data.pictures)
         })
         },[albums,id])

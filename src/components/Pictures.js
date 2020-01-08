@@ -24,7 +24,7 @@ props.history.push("/pictures/" + picc)
 
     useEffect(()=>{
         
-        axios.get("/pictures/"+id).then(resp =>{
+        axios.get("https://ami-photojson.herokuapp.com/api/pictures/"+id).then(resp =>{
             setPic(resp.data)
         })
     },[id])
@@ -34,7 +34,7 @@ props.history.push("/pictures/" + picc)
    
     useEffect(()=>{
         if (pic.albumId!=undefined)
-        axios.get("/albums/" + pic.albumId + "?_embed=pictures").then(resp =>{
+        axios.get("https://ami-photojson.herokuapp.com/api/albums/" + pic.albumId + "?_embed=pictures").then(resp =>{
          setPicAlbums(resp.data.pictures)})
     },[pic.albumId])
 
