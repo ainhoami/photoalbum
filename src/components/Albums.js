@@ -32,10 +32,14 @@ function Albums(props){
         
 
             <div className="albums2">
-            <Link to={"/"}> <p className="arrowleft"> &larr;</p></Link>
-            {albums.map(album =>(
-                <Link key={"useralb" + album.id} to={"/albums/" + album.id}><p >{album.name}</p></Link>
-            ))}
+                    <div className="arrow">
+                        <Link to={"/"}> <p className="arrowleft"> &larr;</p></Link>
+                    </div>
+                    <div className="albName">
+                    {albums.map(album =>(
+                        <Link key={"useralb" + album.id} to={"/albums/" + album.id}><p >{album.name}</p></Link>
+                    ))}
+                    </div>
             </div>
 
             <div className="pics">

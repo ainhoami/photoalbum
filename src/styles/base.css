@@ -24,10 +24,12 @@ code {
 }
 .pics {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin:0px auto;
-  width:1400px;
+  width:auto;
+  max-width: 1300px;
   
 
 } 
@@ -36,15 +38,15 @@ code {
 }
 
 .pics img{
-  width:450px;
-  height:300px;
+  width:420px;
+  height:290px;
   padding: 0;
 
 }
 
 .images {
   margin:3px;
-  height: 300px; 
+  height: 290px; 
   overflow: hidden; 
   border:1px solid rgb(179, 175, 175);
 
@@ -63,9 +65,9 @@ code {
 .pics p{
   margin:0;
   padding: 0 10px;
-  width:450px;
+  width:420px;
   height:60px;
-  top:242px;
+  top:232px;
   left:4px;
   background:rgba(51,51,51,0.8);
   color:white;
@@ -113,32 +115,69 @@ code {
 
 
 
-.albums2{
+.albums2, .albName{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin:30px auto;
-  width: 1400px;
+  width:auto;
+  max-width: 1300px;
   
 }
 
-.albums2 p{
-  border:1px solid white;
-  width:150px;
-  height: 35px;
-  text-align:  center;
-  line-height: 30px;
-
+.albums2{
+  flex-direction: column;
 }
 
-.albums2 p:hover{
+.albums2 .arrow p.arrowleft{
+text-align: center;
+}
+
+
+div.arrow{
+  margin:auto;
+  }
+
+.albName{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+.albName p{
+  width:160px;
+  border: 1px solid white;
+  text-align: center;
+  height: 35px;
+  line-height: 30px;
+  margin:10px;
+}
+
+
+
+.albName p:hover{
   background-color:white;
   border:1px solid #333;
   color: #333;
   font-weight: bolder;
   position: relative;
   
+}
+
+p.arrowleft:hover{
+  color:greenyellow;
+
+}
+
+
+p.arrowleft{
+  border:none;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  width:30px;
 }
 
 
@@ -165,7 +204,6 @@ opacity:0.7;
 .onealbum img{
   width:448px;
   height:268px;
-  /* height:29 8px; */
   margin:0;
 
 }
@@ -174,6 +212,8 @@ a{
   text-decoration: none;  
   color:white;  
   cursor: pointer;
+  padding:0;
+  margin:0;
 }
 
 .onealbum p{
@@ -227,13 +267,7 @@ a{
     font-size: 20px;
   }
 
-  p.arrowleft{
-    border:none;
-    padding:none;
-    margin:none;
-    width: 20px;
-
-  }
+ 
 
   @media only screen and (max-width: 420px) {
     .maincontainer{
@@ -264,5 +298,130 @@ a{
      
     }
 
+    .alpiccontainer{
+      width: 420px;
+      margin:0;
+    }
+
+    .albums2{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin:5px auto;
+      width: 420px;
+      
+    }
+    
+    .albName{
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+      width: 380px;
+    }
+
+    .pics img{
+      width: 345px;
+      height:236px;
+      padding: 0;
+    
+    }
+    
+    .images {
+      margin:3px;
+      height: 236px; 
+      /* border: 3px solid orange; */
+         
+    }
+    
+    
+    .pics p{
+     
+      width:345px;
+      height:37px;
+      top:200px;
+      left:4px;
+      font-size: 20px;
+      font-weight: 250;
+      line-height: 40px;
+      
+      
+    }
+
+
+
   }
   
+  
+
+  @media screen and (max-width:1300px) and (min-width: 1082px) {
+    
+       
+    
+    .pics img{
+      width: 380px;
+      height:260px;
+      padding: 0;
+    
+    }
+    
+    .images {
+      margin:3px;
+      height: 260px; 
+      /* border: 3px solid orange; */
+         
+    }
+    
+    
+    .pics p{
+     
+      width:380px;
+      height:42px;
+      top:220px;
+      left:4px;
+      font-size: 22px;
+      font-weight: 250;
+      line-height: 50px;
+      
+      
+    }
+    
+
+  }
+
+  @media screen and (max-width:872px) and (min-width: 702px) {
+    .pics img{
+      width: 325px;
+      height:222px;
+      padding: 0;
+    
+    }
+    
+    .images {
+      margin:3px;
+      height: 222px; 
+      /* border: 3px solid orange; */
+         
+    }
+    
+    
+    .pics p{
+     
+      width:325px;
+      height:36px;
+      top:188px;
+      left:4px;
+      font-size: 20px;
+      font-weight: 250;
+      line-height: 38px;
+      
+      
+    }
+    
+  }
+
+  @media screen and (max-width:1082px) and (min-width: 480px) {
+    .albName p{
+      width:250px;
+    }
+  }
