@@ -228,21 +228,26 @@ a{
 }
 
 .picContainer{
-  width:1400px;
+  
+  width:auto;
   margin: 70px auto;
 
 }
 
 .carousel{
-  width:900px;
+  width: auto;
+  height: auto;
+  max-width:900px;
   margin:auto;
-  height:600px;
+  max-height:600px;
   position: relative;
 }
 .carousel img{
-  width:900px;
+  width: auto;
+  height: auto;
+  max-width:900px;
   
-  height:600px;}
+  max-height:600px;}
 
   button{
     width:40px;
@@ -264,7 +269,8 @@ a{
   .carousel p.arrowl{
     color:white;
     padding: 0;
-    font-size: 20px;
+    margin:5px 0;
+    font-size: 40px;
   }
 
  
@@ -348,15 +354,22 @@ a{
       
     }
 
+    .carousel{
+      width: 340px;
+      height: 226px;
+    }
 
+    .carousel img{
+      width: 340px;
+      height: 226px;
+     
+    }
 
   }
   
   
 
   @media screen and (max-width:1300px) and (min-width: 1082px) {
-    
-       
     
     .pics img{
       width: 380px;
@@ -386,7 +399,6 @@ a{
       
     }
     
-
   }
 
   @media screen and (max-width:872px) and (min-width: 702px) {
@@ -400,8 +412,7 @@ a{
     .images {
       margin:3px;
       height: 222px; 
-      /* border: 3px solid orange; */
-         
+              
     }
     
     
@@ -417,11 +428,46 @@ a{
       
       
     }
-    
+
+    .carousel{
+      width: 702px;
+      height: 468px;
+      
+    }
+  
+    .carousel img{
+      width: 702px;
+      height: 468px;
+     
+    }
+
+  }
+
+  @media screen and (max-width:701px) and (min-width: 550px) {
+    .carousel{
+      width: 550px;
+      height: 367px;
+      
+    }
+  
+    .carousel img{
+      width: 550px;
+      height: 367px;
+     
+    }
+
   }
 
   @media screen and (max-width:1082px) and (min-width: 480px) {
     .albName p{
       width:250px;
     }
+    
   }
+
+
+
+
+
+  
+  

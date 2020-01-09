@@ -48,7 +48,7 @@ function Albums(props){
                
             <Link to={"/pictures/"+ picAlbum.id} params={{picAlbums}} key={"userimg" + picAlbum.id} >
                 <div className="images">
-                    <img src={picAlbum.url}/>
+                    <img src={picAlbum.url} alt=""/>
                 </div>
                 <p>{picAlbum.name}</p></Link>
                 

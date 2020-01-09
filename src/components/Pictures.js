@@ -50,7 +50,7 @@ props.history.push("/pictures/" + picc)
                 
                <button  onClick={handleclickl}>&#171;</button>
                 <button onClick={handleclickr}>&#187;</button>
-                <img src={pic.url}/>
+                <img src={pic.url} alt=""/>
                 <p className="picname"> {pic.name}</p>
             </div>
 

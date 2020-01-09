@@ -19,7 +19,7 @@ function Mainp (props){
                 <Link key={"useral" + album.id} to={"/albums/" + album.id}>
                     
                         <div className="onealbum">
-                        <img src={album.url}/>
+                        <img src={album.url} alt=""/>
                         <p>{album.name}</p>
                         </div>
                     
