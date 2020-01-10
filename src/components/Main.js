@@ -6,8 +6,8 @@ import axios from "axios"
 function Mainp (props){
     const [albums,setAlbums]=useState([])
     useEffect(()=>{
-        axios.get("https://ami-photojson.herokuapp.com/api/albums").then(resp =>{
-            setAlbums(resp.data)
+        axios.get("https://api.myjson.com/bins/wyh06/").then(resp =>{
+            setAlbums(resp.data.albums)
         })
     },[])
 

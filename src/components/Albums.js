@@ -13,18 +13,19 @@ function Albums(props){
 
 
     useEffect(()=>{
-        axios.get("https://ami-photojson.herokuapp.com/api/albums").then(resp =>{
-            setAlbums(resp.data)
+        axios.get("https://api.myjson.com/bins/wyh06").then(resp =>{
+            setAlbums(resp.data.albums)
+            
         })
     },[])
 
+
     useEffect(()=>{
-        axios.get("https://ami-photojson.herokuapp.com/api/albums/"+id + "?_embed=pictures").then(resp =>{
-            setPicAlbums(resp.data.pictures)
+        axios.get("https://api.myjson.com/bins/wyh06/").then(resp =>{
+            setPicAlbums(resp.data.pictures.filter(e=>e.albumId ==id))
         })
         },[albums,id])
-       // console.log(picAlbums)
-//let filtered = picAlbums.filter(e => e.albumId==id)
+
 
     return(
         <div className="alpiccontainer">
