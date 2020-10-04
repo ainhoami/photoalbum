@@ -26,7 +26,7 @@ props.history.push("/pictures/" + picc)
     
     useEffect(()=>{
         
-        axios.get("https://api.myjson.com/bins/wyh06/").then(resp =>{
+        axios.get("https://api.jsonbin.io/b/5e8d2d81ab2e011ba96999d6").then(resp =>{
             setPic(resp.data.pictures.filter(e=> e.id==id)[0])
             
         })
@@ -38,7 +38,7 @@ props.history.push("/pictures/" + picc)
     
     useEffect(()=>{
         if (pic.albumId!=undefined)
-        axios.get("https://api.myjson.com/bins/wyh06").then(resp =>{
+        axios.get("https://api.jsonbin.io/b/5e8d2d81ab2e011ba96999d6").then(resp =>{
          setPicAlbums(resp.data.pictures.filter(e=> e.albumId==pic.albumId))
          setAlbName(resp.data.albums.filter(e=>e.id == pic.albumId)[0]) 
         

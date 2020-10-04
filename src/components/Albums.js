@@ -13,7 +13,7 @@ function Albums(props){
 
 
     useEffect(()=>{
-        axios.get("https://api.myjson.com/bins/wyh06").then(resp =>{
+        axios.get("https://api.jsonbin.io/b/5e8d2d81ab2e011ba96999d6").then(resp =>{
             setAlbums(resp.data.albums)
             
         })
@@ -21,7 +21,7 @@ function Albums(props){
 
 
     useEffect(()=>{
-        axios.get("https://api.myjson.com/bins/wyh06/").then(resp =>{
+        axios.get("https://api.jsonbin.io/b/5e8d2d81ab2e011ba96999d6").then(resp =>{
             setPicAlbums(resp.data.pictures.filter(e=>e.albumId ==id))
         })
         },[albums,id])
